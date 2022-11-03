@@ -6,7 +6,7 @@ COMMON
 
 body{font-family: "monospace",sans-serif;}
 
-.font-primary{color:aquamarine}
+.font-primary{color: #00abae; font-family: "Cascadia Mono";}
 
 .title-icon{font-size: 20px; font-weight: bold;}
 
@@ -14,7 +14,7 @@ p{font-size: 14px;}
 
 h2{font-weight: bold; font-size: 23px; margin-bottom: 20px;}
 
-a.font-black{color: black !important;}
+a.font-black{color: #707070; font-weight: bold;}
 
 /**************
 
@@ -53,3 +53,11 @@ PROJECTS
 #projects .card img{width: 100%;}
 
 #projects .card-title{font-weight: bold;}
+
+#projects .btn-primary{background-color: gray;}
+
+#projects .btn-secondary{background-color: black;}
+
+#projects .text-black{color: black; font-weight: bold;}
+
+#projects .text-white{font-weight: bold;}
